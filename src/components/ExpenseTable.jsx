@@ -22,7 +22,7 @@ const ExpenseTable = ({ items }) => {
             <tr key={item.id}>
               <td>{item.name}</td>
               <td>{item.description}</td>
-              <td>${item.amount}</td>
+              <td>${Number(item.amount).toFixed(2)}</td>
               <td>{item.category}</td>
               <td>{item.date}</td>
             </tr>

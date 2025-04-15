@@ -30,7 +30,8 @@ const App = () => {
     return (
         <div className="container">
           <h1>Expense Tracker</h1>
-          <p>Start taking control of your finances and life. Record, categorise, and analyse your spending.</p>
+          <p>Start taking control of your finances and life. Record, categorize, and analyze your spending.</p>
+
       
           <div className="app-grid">
             <div className="form-section">
